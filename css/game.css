@@ -1,0 +1,68 @@
+.canvas{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#canvas{
+	z-index: 1;
+}
+
+#canvas-bg{
+	z-index: 0;
+}
+
+#canvas-scratch{
+	display: none;
+}
+
+#canvas-answer{
+	display: none;
+}
+
+#cr-stage{
+	background-image: url('../img/bggrass500.jpg');
+}
+
+/**
+* Slider
+*/
+.slider {
+	width: 200px;
+	height: 8px;
+	margin-left: 30px;
+	margin-top: 46px;
+	background: white;
+	box-shadow: 0 0 5px 2px #b0c2d4 inset;
+	border-radius: 5px;
+	position: relative;
+	display: none;
+}
+
+.slider-handle {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background: white;
+	box-shadow: 0 0 5px 2px #b0c2d4;
+	display: inline-block;
+	position: absolute;
+	margin-left: -7.5px;
+	top: -3.5px;
+	left: 50%;
+	cursor: default;
+}
+
+.fast {
+	position: relative;
+	left: 30px;
+	top: 5px;
+	display: none;
+}
+
+.slow {
+	position: relative;
+	left: 182px;
+	top: 5px;
+	display: none;
+}
